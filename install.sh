@@ -31,4 +31,4 @@ echo "*******************************************************"
 echo "Creating and running the OpenFOAM container: enter ./post-compilation.sh to run the post-compilation script"
 echo "*******************************************************"
 
-docker run -it -d --name openfoam1 jiraphapa/openfoam-docker-cloud
+docker run -it --rm jiraphapa/openfoam-docker-cloud
