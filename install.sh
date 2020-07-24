@@ -22,13 +22,13 @@ echo "*******************************************************"
 docker images
 
 echo "*******************************************************"
-echo "Creating and running OpenFOAM container"
+echo "Creating the OpenFOAM container"
 echo "*******************************************************"
 
-docker run --restart=always jiraphapa/openfoam-docker-cloud
+docker run -it -d jiraphapa/openfoam-docker-cloud
 
 echo "*******************************************************"
-echo "Below are running containers on your system"
+echo "Below are the running containers on your system"
 echo "*******************************************************"
 
 docker ps
