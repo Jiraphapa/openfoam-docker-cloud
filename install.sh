@@ -1,9 +1,14 @@
+#!/bin/bash
+
 echo "*******************************************************"
 echo "Installing Docker on your system:"
 echo "*******************************************************"
 
-curl -fsSL https://get.docker.com -o get-docker.sh
-sh get-docker.sh
+sudo apt-get update
+sudo apt-get remove docker docker-engine docker.io
+sudo apt install docker.io
+sudo systemctl enable docker
+docker --version
 
 sudo usermod -aG docker $USER
 newgrp docker
