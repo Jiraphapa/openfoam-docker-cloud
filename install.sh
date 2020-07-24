@@ -34,6 +34,6 @@ echo "*******************************************************"
 docker ps
 
 echo "*******************************************************"
-echo "Run the ./testOpenFOAM script to test the container"
+echo "Run the testOpenFOAM.sh script to test the container"
 echo "*******************************************************"
 
