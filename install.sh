@@ -22,18 +22,13 @@ echo "*******************************************************"
 docker images
 
 echo "*******************************************************"
-echo "Creating the OpenFOAM container"
-echo "*******************************************************"
-
-docker run -it -d --name openfoam1 jiraphapa/openfoam-docker-cloud
-
-echo "*******************************************************"
 echo "Below are the running containers on your system"
 echo "*******************************************************"
 
 docker ps
 
 echo "*******************************************************"
-echo "Run the testopenfoam.sh script to test the container"
+echo "Creating and running the OpenFOAM container: enter ./post-compilation.sh to run the post-compilation script"
 echo "*******************************************************"
 
+docker run -it -d --name openfoam1 jiraphapa/openfoam-docker-cloud
