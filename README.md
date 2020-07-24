@@ -1,2 +1,2 @@
 # openfoam-cloud
-running a containerized OpenFOAM in a cloud environment. 
+running a containerized OpenFOAM in Google Cloud Platform environment. 
