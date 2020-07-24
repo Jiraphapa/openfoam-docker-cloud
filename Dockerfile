@@ -18,4 +18,3 @@ RUN sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -" ;\
 	
 COPY post-compilation.sh .
 RUN sudo chmod +x post-compilation.sh
-CMD ["openfoam_run.sh"]
