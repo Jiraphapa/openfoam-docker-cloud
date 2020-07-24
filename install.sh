@@ -1,24 +1,10 @@
 #!/bin/bash
 
 echo "*******************************************************"
-echo "Installing Docker on your system:"
+echo "Building openfoam-docker-cloud container image"
 echo "*******************************************************"
 
-sudo apt-get update
-sudo apt-get remove docker docker-engine docker.io
-sudo apt install docker.io
-sudo systemctl enable docker
-docker --version
-
-sudo usermod -aG docker $USER
-newgrp docker
-docker run hello-world
-
-echo "*******************************************************"
-echo "Pulling jiraphapa/openfoam-docker-cloud container image"
-echo "*******************************************************"
-
-docker pull jiraphapa/openfoam-docker-cloud
+docker image build -t openfoam-docker-cloud:v0.1 .
 
 echo "*******************************************************"
 echo "Below are available docker images on your system"
@@ -36,4 +22,4 @@ echo "*******************************************************"
 echo "Creating and running the OpenFOAM container: enter ./post-compilation.sh to run the post-compilation script"
 echo "*******************************************************"
 
-docker run -it --rm jiraphapa/openfoam-docker-cloud
+docker run -it --rm openfoam-docker-cloud:v0.1
