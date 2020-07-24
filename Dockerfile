@@ -15,3 +15,6 @@ RUN sh -c "wget -O - http://dl.openfoam.org/gpg.key | apt-key add -" ;\
 	apt-get update ;\
 	apt-get install -y  openfoam7 ;\
 	echo "source /opt/openfoam7/etc/bashrc" >> ~/.bashrc 
+	
+COPY post-compilation.sh .
+RUN sudo chmod +x post-compilation.sh
