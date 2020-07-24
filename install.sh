@@ -25,7 +25,7 @@ echo "*******************************************************"
 echo "Creating the OpenFOAM container"
 echo "*******************************************************"
 
-docker run -it -d jiraphapa/openfoam-docker-cloud
+docker run -it -d --name openfoam1 jiraphapa/openfoam-docker-cloud
 
 echo "*******************************************************"
 echo "Below are the running containers on your system"
