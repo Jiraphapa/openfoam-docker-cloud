@@ -4,7 +4,7 @@ Running a containerized OpenFOAM in Google Cloud Platform environment (GCP).
 
 ## Getting Started
 
-These instructions will take you through to the creation of GCP VM instance, creating and running a Docker image and running the post-installation script to test the containerized OpenFOAM installation.
+These instructions will take you through the creation of GCP VM instance, creating and running a Docker image and running the post-installation script to test the containerized OpenFOAM installation.
 
 ### Creating a GCP VM instance
 
