@@ -45,10 +45,9 @@ $ docker pull jiraphapa/openfoam-docker-cloud
 then create and run the post-compilation script to test the container (clone the Github repo first)
 ```sh
 $ docker run -it --rm jiraphapa/openfoam-docker-cloud
-```
-the option **-it** connects the container to terminal and **--rm** removes container automatically after it exits
-```sh
 $ ./post-compilation.sh
 ```
+
+the option `-it` in `docker run` connects the container to terminal and `--rm` removes container automatically after it exits
 
 ### Building OpenFOAM Docker Image Dockerfile
