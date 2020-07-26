@@ -69,6 +69,7 @@ $ docker pull jiraphapa/openfoam-docker-cloud
 ```
 then create and run the post-compilation script to test the container (clone the Github repo first)
 ```sh
+$ wget https://github.com/Jiraphapa/openfoam-docker-gcp/blob/master/aws-setup-amazon-linux.sh
 $ docker run -it --rm jiraphapa/openfoam-docker-cloud
 $ ./post-compilation.sh
 ```
