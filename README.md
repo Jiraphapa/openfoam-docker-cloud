@@ -18,3 +18,5 @@ These instructions will take you through the creation of GCP VM instance, creati
 8. Click the **Create** button to create and start the instance.
 
 This will create a VM instance with the Container-Optimized OS and pre-installed Docker runtime. you can access the command-line interface of an instance by ssh via the External IP address or the GCP console
+
+### Creating and running a Docker image
