@@ -21,7 +21,7 @@ This will create a VM instance with the Container-Optimized OS and pre-installed
 
 
 ### Creating and running a Docker image 
-
+You may create and run Docker image built from a Dockerfile or pulling image from the Docker hub repository
 #### 1
 The script will automatically create and run the OpenFOAM container with a bash shell
 1. Clone the repo and navigate into the directory
