@@ -77,5 +77,5 @@ $ ./post-compilation.sh
 the option `-it` in `docker run` connects the container to terminal and `--rm` removes container automatically after it exits
 
 ## Acknowledgments
-* [Google Cloud Platform - Compute Engine How-to guides]:(`https://cloud.google.com/compute/docs/how-to`)
-* [Amazon Elastic Container Service - Developer Guide]:(`https://docs.aws.amazon.com/AmazonECS/latest/developerguide`)
+* [Google Cloud Platform - Compute Engine How-to guides]:(https://cloud.google.com/compute/docs/how-to)
+* [Amazon Elastic Container Service - Developer Guide]:(https://docs.aws.amazon.com/AmazonECS/latest/developerguide)
