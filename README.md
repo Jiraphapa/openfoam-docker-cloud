@@ -27,8 +27,8 @@ Using the installation script, it will automatically build, create and run the O
 
 1. Clone the repo and navigate into the directory
 ```sh
-git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
-cd openfoam-docker-gcp/
+$ git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
+$ cd openfoam-docker-gcp/
 ```
 2. Run the installation script to build, create and run the OpenFOAM container with a bash shell
 ```sh
