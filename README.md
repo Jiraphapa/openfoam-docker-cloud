@@ -32,7 +32,7 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 
 This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key file (key pair file).
 
-### Installing Docker on AWS EC2 instance 
+### Installing Docker (and Git) on AWS EC2 instance 
 
 1. Download and run the script `aws-setup.sh`
 ```sh
