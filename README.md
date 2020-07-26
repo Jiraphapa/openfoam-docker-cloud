@@ -26,8 +26,10 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 3. In Step 6: Configure Security Group, in the **Source** section select **My IP**.
 4. Click **Review and Launch**.
 5. Click **Launch**.
-6. Create or choose an existing **keypair** for SSH connection.
+6. Create or choose an existing **key pair** for SSH connection.
 7. Click **Launch Instances**.
+
+This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key file (key pair file).
 
 ## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
