@@ -1,4 +1,4 @@
-# openfoam-docker-gcp
+# openfoam-docker-cloud
  
 Running a containerized OpenFOAM in Google Cloud Platform (GCP) and AWS EC2 environment. 
 
@@ -36,7 +36,7 @@ This will create an AWS EC2 VM instance. You can access the command-line interfa
 
 1. Download and run the AWS setup script 
 ```sh
-$ wget https://raw.githubusercontent.com/Jiraphapa/openfoam-docker-gcp/master/aws-setup-amazon-linux.sh
+$ wget https://raw.githubusercontent.com/Jiraphapa/openfoam-docker-cloud/master/aws-setup-amazon-linux.sh
 $ chmod +x aws-setup-amazon-linux.sh
 $ sh aws-setup-amazon-linux.sh
 ```
@@ -49,8 +49,8 @@ Using the installation script, it will automatically build, create and run the O
 
 1. Clone the repo and navigate into the directory
 ```sh
-$ git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
-$ cd openfoam-docker-gcp/
+$ git clone https://github.com/Jiraphapa/openfoam-docker-cloud.git
+$ cd openfoam-docker-cloud/
 ```
 2. Run the installation script to build, create and run the OpenFOAM container with a bash shell
 ```sh
