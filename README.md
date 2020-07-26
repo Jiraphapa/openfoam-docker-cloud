@@ -61,7 +61,7 @@ $ sh install.sh
 ```sh
 $ ./post-compilation.sh
 ```
-### Creating and running image built from the Docker hub repository
+### Creating and running image from the Docker hub repository
 If you are using GCP and have chosen **Deploy a container image to this VM instance** during the setup, it will automatically pull an image from the Docker hub repository from the specified url. 
 
 You can manually pull the image from the repository
