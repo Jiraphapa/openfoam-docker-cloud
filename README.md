@@ -40,7 +40,7 @@ $ wget https://github.com/Jiraphapa/openfoam-docker-gcp/blob/master/aws-setup-am
 $ chmod +x aws-setup-amazon-linux.sh
 $ sh aws-setup-amazon-linux.sh
 ```
-2. Log out and log back in again to pick up the new docker group permissions. You can accomplish this by closing your current SSH terminal window and reconnecting to your instance in a new one. Your new SSH session will have the appropriate docker group permissions (so you can execute Docker commands without using `sudo`). 
+2. Log out and log back in again to pick up the new docker group permissions. You can accomplish this by closing your current SSH terminal window and reconnecting to your instance in a new one. Your new SSH session will have the appropriate docker group permissions (so that you can execute Docker commands without using `sudo`). 
 
 ## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
@@ -79,3 +79,4 @@ the option `-it` in `docker run` connects the container to terminal and `--rm` r
 ## Acknowledgments
 
 Google Cloud Platform - Compute Engine How-to guides (`https://cloud.google.com/compute/docs/how-to`)
+Amazon Elastic Container Service - Developer Guide (`https://docs.aws.amazon.com/AmazonECS/latest/developerguide`)
