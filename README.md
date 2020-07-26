@@ -36,8 +36,8 @@ This will create an AWS EC2 VM instance. You can access the command-line interfa
 
 Download and run the script `aws-setup.sh`
 ```sh
-$ chmod +x aws-setup.sh
-$ sh aws-setup.sh
+$ chmod +x aws-setup-amazon-linux.sh
+$ sh aws-setup-amazon-linux.sh
 ```
 
 ## Creating and running a Docker image 
