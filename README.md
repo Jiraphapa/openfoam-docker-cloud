@@ -20,9 +20,9 @@ These instructions will take you through the creation of GCP VM instance, creati
 This will create a VM instance with the Container-Optimized OS and pre-installed Docker runtime. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console.
 
 
-### Creating and running a Docker image 
+## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
-#### Creating and running image built from a Dockerfile
+### Creating and running image built from a Dockerfile
 Using the installation script, it will automatically build, create and run the OpenFOAM container from Dockerfile
 
 1. Clone the repo and navigate into the directory
@@ -35,7 +35,7 @@ $ sh install.sh
 ```sh
 $ ./post-compilation.sh
 ```
-#### Creating and running image built from the Docker hub repository
+### Creating and running image built from the Docker hub repository
 If you are using GCP and have chosen **Deploy a container image to this VM instance** during the setup, it will automatically pull an image from the Docker hub repository from the specified url. 
 
 You can also manually pull the image from the repository
@@ -49,4 +49,6 @@ $ ./post-compilation.sh
 ```
 
 the option `-it` in `docker run` connects the container to terminal and `--rm` removes container automatically after it exits
+
+## Acknowledgments
 
