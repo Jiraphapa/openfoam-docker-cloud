@@ -24,14 +24,14 @@ This will create a VM instance with the Container-Optimized OS and pre-installed
 #### 1
 1. Clone the repo and navigate into the directory
 ```sh
-git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
+$ git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
 ```
 2. Run the installation script to build the OpenFOAM Docker image from Dockerfile
 ```sh
-chmod +x install.sh
+$ chmod +x install.sh
 ```
 ```sh
-sh install.sh
+$ sh install.sh
 ```
 3. After installation, 
 #### 2
