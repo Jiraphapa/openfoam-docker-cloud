@@ -19,7 +19,7 @@ These instructions will take you through the creation of VM instance, creating a
 
 This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console ([How to connect to your instances?](https://cloud.google.com/compute/docs/instances/connecting-to-instance#console))
 
-![GCP GIF](https://raw.githubusercontent.com/Jiraphapa/my-gif-repo/master/gcp.gif)
+
 
 ### Creating a AWS EC2 instance (free-tier)
 
