@@ -1,10 +1,10 @@
 # openfoam-docker-gcp
  
-Running a containerized OpenFOAM in Google Cloud Platform environment (GCP). 
+Running a containerized OpenFOAM in Google Cloud Platform (GCP) and AWS EC2 environment. 
 
 ## Getting Started
 
-These instructions will take you through the creation of GCP VM instance, creating and running a Docker image and running the post-installation script to test the containerized OpenFOAM installation.
+These instructions will take you through the creation of VM instance, creating and running a Docker image and running the post-installation script to test the containerized OpenFOAM installation.
 
 ### Creating a GCP VM instance
 
@@ -19,7 +19,15 @@ These instructions will take you through the creation of GCP VM instance, creati
 
 This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console.
 
+### Creating a AWS EC2 VM instance (free-tier)
 
+1. In the Amazon EC2 console, select **Launch a virtual machine** with EC2.
+2. In Step 1: Choose an Amazon Machine Image (AMI), find an **Amazon Linux AMI** (with AWS command line tools) at the top of the list and choose Select.
+3. In Step 6: Configure Security Group, in the **Source** section select **My IP**.
+4. Click *Review and Launch***.
+5. Click *Launch*.
+6. Create or choose an existing **keypair** for SSH connection.
+7. Click **Launch Instances**.
 
 ## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
