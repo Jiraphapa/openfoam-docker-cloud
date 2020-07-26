@@ -23,6 +23,7 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 
 1. In the Amazon EC2 console, select **Launch a virtual machine** with EC2.
 2. In Step 1: Choose an Amazon Machine Image (AMI), find an **Amazon Linux AMI** (with AWS command line tools) at the top of the list and choose Select.
+3. (Optional) Configure Step 2 through Step 5.
 3. In Step 6: Configure Security Group, in the **Source** section select **My IP**.
 4. Click **Review and Launch**.
 5. Click **Launch**.
