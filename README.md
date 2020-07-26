@@ -23,7 +23,8 @@ This will create a VM instance with the Container-Optimized OS and pre-installed
 ### Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
 #### Creating and running image built from a Dockerfile
-The script will automatically create and run the OpenFOAM container with a bash shell
+Using the installation script, it will automatically build, create and run the OpenFOAM container with a bash shell
+
 1. Clone the repo and navigate into the directory
 ```sh
 $ git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
