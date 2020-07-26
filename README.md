@@ -34,11 +34,12 @@ This will create an AWS EC2 VM instance. You can access the command-line interfa
 
 ### Installing Docker on AWS EC2 instance 
 
-Download and run the script `aws-setup.sh`
+1. Download and run the script `aws-setup.sh`
 ```sh
 $ chmod +x aws-setup-amazon-linux.sh
 $ sh aws-setup-amazon-linux.sh
 ```
+2. Log out and log back in again to pick up the new docker group permissions. You can accomplish this by closing your current SSH terminal window and reconnecting to your instance in a new one. Your new SSH session will have the appropriate docker group permissions.
 
 ## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
