@@ -39,7 +39,9 @@ $ sh install.sh
 $ ./post-compilation.sh
 ```
 #### Creating and running image built from the Docker hub repository
-If you are using GCP and have chosen **Deploy a container image to this VM instance** during the setup, it will automatically pull an image from the Docker hub repository from the specified url. You can also pull the image from the repository and run 
+If you are using GCP and have chosen **Deploy a container image to this VM instance** during the setup, it will automatically pull an image from the Docker hub repository from the specified url. 
+
+You can also manually pull the image from the repository and run 
 ```sh
 $ docker pull jiraphapa/openfoam-docker-cloud
 $ docker run -it --rm jiraphapa/openfoam-docker-cloud
