@@ -36,7 +36,7 @@ This will create an AWS EC2 VM instance. You can access the command-line interfa
 
 1. Download and run the AWS setup script 
 ```sh
-$ wget https://github.com/Jiraphapa/openfoam-docker-gcp/blob/master/aws-setup-amazon-linux.sh
+$ wget https://raw.githubusercontent.com/Jiraphapa/openfoam-docker-gcp/master/aws-setup-amazon-linux.sh
 $ chmod +x aws-setup-amazon-linux.sh
 $ sh aws-setup-amazon-linux.sh
 ```
