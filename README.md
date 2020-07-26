@@ -19,7 +19,7 @@ These instructions will take you through the creation of VM instance, creating a
 
 This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console.
 
-### Creating a AWS EC2 VM instance (free-tier)
+### Creating a AWS EC2 instance (free-tier)
 
 1. In the Amazon EC2 console, select **Launch a virtual machine** with EC2.
 2. In Step 1: Choose an Amazon Machine Image (AMI), find an **Amazon Linux AMI** (with AWS command line tools) at the top of the list and choose Select.
@@ -31,6 +31,14 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 7. Click **Launch Instances**.
 
 This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key file (key pair file).
+
+### Installing Docker on AWS EC2 instance 
+
+1. Download and run the script `aws-setup.sh`
+```sh
+$ chmod +x aws-setup.sh
+$ sh aws-setup.sh
+```
 
 ## Creating and running a Docker image 
 You may create and run Docker image built from a Dockerfile or by pulling image from the Docker hub repository.
