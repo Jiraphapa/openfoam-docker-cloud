@@ -17,7 +17,7 @@ These instructions will take you through the creation of VM instance, creating a
 7. (Optional) In the **Container image** text box, put the url `docker.io/jiraphapa/openfoam-docker-cloud:latest`
 8. Click the **Create** button to create and start the instance.
 
-This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console.
+This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console (see [Connecting to instances](https://cloud.google.com/compute/docs/instances/connecting-to-instance#console))
 
 ### Creating a AWS EC2 instance (free-tier)
 
