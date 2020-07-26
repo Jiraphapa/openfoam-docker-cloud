@@ -44,10 +44,10 @@ If you are using GCP and have chosen **Deploy a container image to this VM insta
 You can also manually pull the image from the repository and run 
 ```sh
 $ docker pull jiraphapa/openfoam-docker-cloud
-$ docker run -it --rm jiraphapa/openfoam-docker-cloud
 ```
-then run the post-compilation script to test the container (clone the Github repo first)
+then create and run the post-compilation script to test the container (clone the Github repo first)
 ```sh
+$ docker run -it --rm jiraphapa/openfoam-docker-cloud
 $ ./post-compilation.sh
 ```
 ### Building OpenFOAM Docker Image Dockerfile
