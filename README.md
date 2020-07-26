@@ -34,7 +34,7 @@ This will create an AWS EC2 VM instance. You can access the command-line interfa
 
 ### Installing Docker (and Git) on AWS EC2 instance 
 
-1. Download and run the script `aws-setup.sh`
+1. Download and run the AWS setup script 
 ```sh
 $ wget https://github.com/Jiraphapa/openfoam-docker-gcp/blob/master/aws-setup-amazon-linux.sh
 $ chmod +x aws-setup-amazon-linux.sh
