@@ -52,4 +52,3 @@ $ ./post-compilation.sh
 
 the option `-it` in `docker run` connects the container to terminal and `--rm` removes container automatically after it exits
 
-### Building OpenFOAM Docker Image Dockerfile
