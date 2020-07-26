@@ -26,6 +26,10 @@ You may create and run Docker image built from a Dockerfile or by pulling image 
 Using the installation script, it will automatically build, create and run the OpenFOAM container from Dockerfile
 
 1. Clone the repo and navigate into the directory
+```sh
+git clone https://github.com/Jiraphapa/openfoam-docker-gcp.git
+cd openfoam-docker-gcp/
+```
 2. Run the installation script to build, create and run the OpenFOAM container with a bash shell
 ```sh
 $ chmod +x install.sh
