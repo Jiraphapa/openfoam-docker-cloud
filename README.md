@@ -14,7 +14,7 @@ These instructions will take you through the creation of GCP VM instance, creati
 4. Specify a **Name** and **Region** for your instance.
 5. Select a **Machine Type** in **Machine configuration** with 15GB memory or higher, for example, **n1-standard-4** 
 6. Select a tick box **Deploy a container image to this VM instance**.
-7. In the **Container image** text box, put the url ('docker.io/jiraphapa/openfoam-docker-cloud:latest')
+7. In the **Container image** text box, put the url (`docker.io/jiraphapa/openfoam-docker-cloud:latest`)
 8. Click the **Create** button to create and start the instance.
 
 This will create a VM instance with the Container-Optimized OS and pre-installed Docker runtime. you can access the command-line interface of an instance by ssh via the External IP address or the GCP console
