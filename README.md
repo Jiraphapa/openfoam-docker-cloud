@@ -17,7 +17,7 @@ These instructions will take you through the creation of VM instance, creating a
 7. (Optional) In the **Container image** text box, put the url `docker.io/jiraphapa/openfoam-docker-cloud:latest`
 8. Click the **Create** button to create and start the instance.
 
-This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console (see [Connecting to instances](https://cloud.google.com/compute/docs/instances/connecting-to-instance#console))
+This will create a VM instance with the Container-Optimized OS, pre-installed Docker runtime and packages. You can access the command-line interface of an instance via ssh to the VM's External IP address or from the GCP console ([How to connect to your instances?](https://cloud.google.com/compute/docs/instances/connecting-to-instance#console))
 
 ### Creating a AWS EC2 instance (free-tier)
 
@@ -30,7 +30,7 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 6. Create or choose an existing **key pair** for SSH connection.
 7. Click **Launch Instances**.
 
-This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key/key pair file (see [Connecting to your Linux instance using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html?icmpid=docs_ec2_console))
+This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key/key pair file (see [How to connect to your Linux instance using SSH?](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html?icmpid=docs_ec2_console))
 
 ### Installing Docker (and Git) on AWS EC2 instance 
 
