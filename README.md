@@ -52,3 +52,4 @@ the option `-it` in `docker run` connects the container to terminal and `--rm` r
 
 ## Acknowledgments
 
+Google Cloud Platform - Compute Engine How-to guides (`https://cloud.google.com/compute/docs/how-to`)
