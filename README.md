@@ -30,7 +30,7 @@ This will create a VM instance with the Container-Optimized OS, pre-installed Do
 6. Create or choose an existing **key pair** for SSH connection.
 7. Click **Launch Instances**.
 
-This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key file (key pair file).
+This will create an AWS EC2 VM instance. You can access the command-line interface of an instance via ssh to the VM's External IP address using the private key/key pair file (see [Connecting to your Linux instance using SSH](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstances.html?icmpid=docs_ec2_console))
 
 ### Installing Docker (and Git) on AWS EC2 instance 
 
